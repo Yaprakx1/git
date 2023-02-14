@@ -1,0 +1,16 @@
+@import "variables";
+@import "header";
+@import "content";
+
+.icon{
+    display: inline-block;
+    width: lem;
+    height: lem;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+
+a,p{
+    font-size: $my-font;
+}

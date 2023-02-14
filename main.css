@@ -1,0 +1,168 @@
+.Header {
+  height: 40px;
+  background-color: #24292e;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.Header-logo {
+  margin-right: 16px;
+}
+.Header-logo svg {
+  width: 32px;
+  height: 32px;
+  color: #fff;
+}
+.Header-search {
+  position: relative;
+}
+.Header-search input {
+  background-color: hsla(0deg, 0%, 100%, 0.125);
+  width: 300px;
+  height: 25px;
+  padding: 7px;
+  font-size: 12px;
+  color: #fff;
+  border: none;
+  margin-right: 16px;
+  border-radius: 3px;
+}
+.Header-search svg {
+  width: 32px;
+  height: 32px;
+  color: #fff;
+  position: absolute;
+  right: 25px;
+  top: 8px;
+}
+.Header-links a {
+  color: #fff;
+  margin-right: 16px;
+  font-family: "Maven Pro", sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+}
+.Header-right-links {
+  margin-left: auto;
+}
+.Header-right-links svg {
+  width: 32px;
+  height: 32px;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.main {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+.main-about {
+  margin-top: 40px;
+}
+.main-about img {
+  width: 240px;
+  height: 240px;
+  border-radius: 5px;
+}
+.main-about-title {
+  margin-top: 30px;
+}
+.main-about-title h3 {
+  padding-bottom: 10px;
+}
+.main-about-title h4 {
+  padding-bottom: 30px;
+}
+.main-about-title button {
+  width: 100px;
+  height: 36px;
+  border: 1px solid rgba(27, 31, 35, 0.2);
+  background-color: #eff3f6;
+  background-image: linear-gradient(-180, #fafbfc 90%);
+  border-radius: 3px;
+}
+.main-about-dsc {
+  margin-top: 16px;
+}
+.main-projects {
+  margin-left: 40px;
+  width: 100%;
+}
+.main-projects-links {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.main-projects-links a {
+  text-decoration: none;
+  color: #586069;
+}
+.main-projects .section {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.main-projects .section a {
+  font-size: 15px;
+  color: #586069;
+  text-decoration: none;
+}
+.main-projects .conteiner {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main-projects-bar {
+  margin-top: 20px;
+  margin-right: 10px;
+  padding: 10px;
+  border: 1px solid;
+  width: 400px;
+  position: relative;
+  height: 100px;
+}
+.main-projects-bar .up {
+  display: flex;
+}
+.main-projects-bar .up a {
+  text-decoration: none;
+}
+.main-projects-bar .up .right svg {
+  position: absolute;
+  right: 10px;
+}
+.main-projects-bar .down {
+  margin-top: 50px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+.main-projects-bar .down span {
+  background-color: #563d7c;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.main-projects-bar .down p {
+  font-size: 18px;
+  margin-left: 5px;
+}
+.main-projects-bar svg {
+  width: 22px;
+  height: 22px;
+}
+
+.icon {
+  display: inline-block;
+  width: lem;
+  height: lem;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+a, p {
+  font-size: "Maven Pro", sans-serif;
+}/*# sourceMappingURL=main.css.map */
